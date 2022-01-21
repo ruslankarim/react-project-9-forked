@@ -16,22 +16,22 @@ export default function Item(props) {
   }
 
   return (
-    <div className="item">
-      <img src="Сюда идет картинка" alt="" />
-      <div className="item-info">
-        <h2>Сюда идет название</h2>
-        <p>Сюда идет описание</p>
+    <div className="flex flex-col p-8 border-2 m-5 rounded">
+      <img className="rounded mb-4" src={info.image} alt="" />
+      <div className="ml-2 mb-4">
+        <h2 className="text-2xl" >{info.name}</h2>
+        <p>{info.desc}</p>
       </div>
-      <div className="item-quantity">
+      <div className="flex flex-row pl-7 pr-7">
         <button
-          className="item-less"
+          className="basis-1/4 border-2 rounded-full shadow-md"
           disabled={total === 0}
           onClick={handleRemoveClick}
         >
           -
         </button>
-        <h3 className="item-total">{total ? total : ""}</h3>
-        <button className="item-more" onClick={handleAddClick}>
+        <h3 className="basis-1/2 text-center">{total ? total : ""}</h3>
+        <button className="basis-1/4 border-2 rounded-full shadow-md" onClick={handleAddClick}>
           +
         </button>
       </div>
