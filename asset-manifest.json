@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-project-9-forked/static/css/main.ac527586.css",
+    "main.js": "/react-project-9-forked/static/js/main.67cfcaa3.js",
+    "index.html": "/react-project-9-forked/index.html",
+    "main.ac527586.css.map": "/react-project-9-forked/static/css/main.ac527586.css.map",
+    "main.67cfcaa3.js.map": "/react-project-9-forked/static/js/main.67cfcaa3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac527586.css",
+    "static/js/main.67cfcaa3.js"
+  ]
+}
